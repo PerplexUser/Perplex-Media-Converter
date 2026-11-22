@@ -1,0 +1,67 @@
+{
+  "release": "Perplex Media Converter 1.1.6",
+  "ffmpeg_version": "9.1-perplex-1.1.6",
+  "license": "GPL-3.0-or-later",
+  "source_modified": false,
+  "external_media_libraries": {
+    "x264": "b35605ace3ddf7c1a5d67a2eb553f034aef41d55",
+    "LAME": "3.100"
+  },
+  "target": "Windows x86_64",
+  "system_dlls": [
+    "bcrypt.dll",
+    "KERNEL32.dll",
+    "msvcrt.dll",
+    "SHELL32.dll"
+  ],
+  "ffmpeg": {
+    "size": 32216576,
+    "sha256": "44baefc3376b93790b2f5dee5eba6f844a7dbcb6539f31c03a2632ada2faa6a2"
+  },
+  "ffprobe": {
+    "size": 31985152,
+    "sha256": "31fb4a7ea55e544e42e633146fdae83a41d0901feb6861b2fd0f5e5edcdcb959"
+  },
+  "inputs": {
+    "ffmpeg-9.1.tar.xz": {
+      "sha256": "1a4d394ae63d190a526cd052eb4415c156b5c5e2df37efab41a7de0b8fde2433",
+      "size": 12557532
+    },
+    "ffmpeg-9.1.tar.xz.asc": {
+      "sha256": "8c0bf6017492434e11766c6cc841b30e4a6b31e896eaf813de0acd05757fd50e",
+      "size": 520
+    },
+    "ffmpeg-devel.asc": {
+      "sha256": "397b3becedcd5a98769967ff1ff8501ddc89f8368b8f766e4701377d7dbaabe5",
+      "size": 1709
+    },
+    "lame-3.100.tar.gz": {
+      "sha256": "ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e",
+      "size": 1524133
+    },
+    "mingw-w64_12.0.0-5.debian.tar.xz": {
+      "sha256": "27513ca9c5730bc58eadda089022979b40fa1a5c05893ca3e339345d8c832dba",
+      "size": 162596
+    },
+    "mingw-w64_12.0.0-5.dsc": {
+      "sha256": "534adcd192d222180ebdda13c8efa9270dcc94a560739944e8d91ea8b3f85ea1",
+      "size": 2689
+    },
+    "mingw-w64_12.0.0.orig.tar.bz2": {
+      "sha256": "cc41898aac4b6e8dd5cffd7331b9d9515b912df4420a3a612b5ea2955bbeed2f",
+      "size": 10474283
+    },
+    "mingw-w64_12.0.0.orig.tar.bz2.asc": {
+      "sha256": "f9b696450b5ed2ad5bd840903c724f935bcd88b61a8838c9e33f09ae00e2e4b7",
+      "size": 269
+    },
+    "x264-b35605ace3ddf7c1a5d67a2eb553f034aef41d55.tar.bz2": {
+      "sha256": "6eeb82934e69fd51e043bd8c5b0d152839638d1ce7aa4eea65a3fedcf83ff224",
+      "size": 848719
+    }
+  },
+  "corresponding_source": {
+    "archive": "Perplex-FFmpeg-Source-1.1.6.zip",
+    "sha256": "078569fceda3de167afc83deffe4c2e33557d07cfe0f405bbad02caf0322c657"
+  }
+}

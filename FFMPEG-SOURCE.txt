@@ -1,0 +1,28 @@
+PERPLEX MEDIA CONVERTER 1.1.6 — MATCHING FFMPEG SOURCE
+
+The FFmpeg and FFprobe executables included in this version are licensed
+under the GNU General Public License version 3 or later.
+
+Download the complete matching source archive, free of charge, from the same
+page where this version's installer is offered:
+
+    Perplex-FFmpeg-Source-1.1.6.zip
+
+Publisher website: https://www.perplex.click/
+For GitHub downloads, use the source archive attached to the SAME 1.1.6 release.
+It is a separate release asset; GitHub's automatic "Source code" archive alone
+contains the converter application and is not the matching FFmpeg source set.
+
+FFMPEG-MANIFEST.json records the source ZIP's SHA-256 and the two executable
+SHA-256 values. The source ZIP includes the exact upstream archives (FFmpeg,
+x264, LAME and MinGW-w64), build scripts and build configuration records.
+No upstream media source modifications were made.
+
+You may inspect, modify and rebuild FFmpeg and replace ffmpeg.exe/ffprobe.exe
+in the installation directory. The converter does not require a vendor key,
+activation, signed replacement, or special installation information to run
+modified compatible FFmpeg programs.
+
+Redistributors must keep equivalent no-charge access to this exact source
+archive next to their download, with a clear source link and the license
+notices. See FFmpeg-REDISTRIBUTION.txt and GPLv3 section 6(d).

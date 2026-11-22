@@ -1,0 +1,12 @@
+Perplex Media Converter 1.1.6 — 22 November 2026
+
+- Complete offline installation retained.
+- Replaced the undocumented Gyan 1.1.5 binaries with a new FFmpeg 9.1 build.
+- Included corresponding source archives for FFmpeg, x264, LAME and MinGW-w64,
+  build script, source/binary hashes, configuration records and license texts.
+- Included runtime notices and Independent JPEG Group acknowledgement.
+- Installer now preserves all nested license notices.
+- App's Licenses / About explains MIT application and separate GPLv3 FFmpeg.
+- Packagers reject tools that do not match this release's source manifest.
+- Publication assets include homepage and GitHub release text with source links.
+- See TEST-REPORT.md for completed checks and remaining Windows GUI smoke test.

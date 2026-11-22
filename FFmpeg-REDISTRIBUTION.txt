@@ -1,0 +1,27 @@
+REDISTRIBUTING PERPLEX MEDIA CONVERTER 1.1.6
+
+The original app is MIT; bundled FFmpeg/FFprobe are GPLv3-or-later.
+
+Publish Perplex-FFmpeg-Source-1.1.6.zip with every binary download of this
+release (installer, portable ZIP or developer kit). Provide a conspicuous,
+free source link beside each binary download. Keep source access available
+for as long as necessary to satisfy GPLv3 section 6(d). Users do not need to
+download the source to install or use the application.
+
+The provided download.html already links the source package by its filename.
+The release description in GITHUB-RELEASE-1.1.6.md contains the same notice.
+Host the named files together. Preserve LICENSE.txt, THIRD_PARTY.txt,
+FFMPEG-SOURCE.txt, FFMPEG-MANIFEST.json, FFmpeg-GPLv3.txt and licenses/.
+
+Do not use the old 1.1.5 Gyan binaries with this source package. Their complete
+corresponding source was not established. This release uses newly built
+binaries from the supplied sources. Their exact hashes are in the manifest.
+
+A custom FFmpeg build requires its own matching source, licenses, build
+information and manifest. The 1.1.6 packager checks both executable hashes
+against its approved-release.json so an unrelated build cannot silently be
+packaged as this release. This build-time check does not restrict users from
+replacing the installed FFmpeg tools with compatible modified versions.
+
+Sources: https://www.gnu.org/licenses/gpl-3.0.html (section 6(d));
+https://ffmpeg.org/legal.html ; https://www.gnu.org/licenses/gpl-faq.html
