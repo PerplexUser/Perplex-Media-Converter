@@ -1,0 +1,14 @@
+{
+  "ffmpeg": {
+    "size": 32216576,
+    "sha256": "44baefc3376b93790b2f5dee5eba6f844a7dbcb6539f31c03a2632ada2faa6a2"
+  },
+  "ffprobe": {
+    "size": 31985152,
+    "sha256": "31fb4a7ea55e544e42e633146fdae83a41d0901feb6861b2fd0f5e5edcdcb959"
+  },
+  "corresponding_source": {
+    "archive": "Perplex-FFmpeg-Source-1.1.6.zip",
+    "sha256": "078569fceda3de167afc83deffe4c2e33557d07cfe0f405bbad02caf0322c657"
+  }
+}

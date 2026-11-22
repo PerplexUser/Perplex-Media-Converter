@@ -1,0 +1,19 @@
+PERPLEX MEDIA CONVERTER 1.1.4 — OFFLINE EDITION
+
+- Install FFmpeg and FFprobe from the setup EXE; no installation-time download.
+- New graphical Offline Setup Builder creates a complete setup on your current
+  Windows computer using FFmpeg files from the already-installed 1.1.3 version.
+- Streamed ZIP overlay bundles the Windows executables and a SHA-256 manifest.
+- Installer verifies binary SHA-256 during extraction and uses a separate
+  small uninstaller so an entire offline bundle is not duplicated on disk.
+- No changes to media conversion functions or the blue application design.
+- Updated third-party licensing and source distribution guidance.
+
+Building the offline installer is a one-time packaging step. You can then
+install that resulting Setup EXE completely offline, repeatedly.
+
+The source alone is not a complete offline installer unless the FFmpeg Windows
+executables are packaged. This release supplies the offline builder to do so.
+
+© by www.perplex.click
+MIT Copyright (c) 2026 Michael Lappenbusch

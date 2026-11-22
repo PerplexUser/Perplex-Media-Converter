@@ -1,0 +1,10 @@
+Perplex Media Converter 1.1.5 — Self-contained build and offline setup
+
+- The application and installer can be compiled from a clean GitHub checkout.
+- The separate Offline Developer Kit includes FFmpeg 9.1 Essentials and FFprobe
+  binaries in third_party/ffmpeg/bin, so no 1.1.3 installation is necessary.
+- Run build-offline-windows.cmd to create an installer with FFmpeg and FFprobe
+  embedded; it does not access the network on the user's Windows PC.
+- GitHub-friendly source archive excludes third-party executables.
+- MIT license and blue English UI remain unchanged.
+- FFmpeg GPLv3 source/build obligations apply when redistributing binaries.

@@ -1,0 +1,60 @@
+PERPLEX MEDIA CONVERTER 1.1.6 — THIRD-PARTY NOTICES
+
+APPLICATION, INSTALLER AND BUILDERS
+MIT License. Copyright (c) 2026 Michael Lappenbusch.
+Website: https://www.perplex.click/
+The original Go application and user interface remain MIT-licensed.
+See LICENSE.txt. The MIT license does not relicense FFmpeg or its libraries.
+
+FFMPEG AND FFPROBE
+FFmpeg 9.1-perplex-1.1.6, built from the unmodified FFmpeg 9.1 release sources.
+Copyright (c) the FFmpeg developers; individual authors are identified in
+licenses/FFmpeg-file-notices.txt and the complete source archive.
+License for these executables: GNU GPL version 3 or later.
+Configuration: --enable-gpl --enable-version3; --enable-nonfree is NOT used.
+FFmpeg and FFprobe run as separate command-line programs. They are not linked
+into the MIT application. They are replaceable ordinary executable files.
+Project: https://ffmpeg.org/ ; licensing: https://ffmpeg.org/legal.html
+Full GPLv3: FFmpeg-GPLv3.txt and licenses/FFmpeg-COPYING.GPLv3.txt.
+This software is based in part on the work of the Independent JPEG Group.
+No changes were made to FFmpeg's jfdctfst.c, jfdctint_template.c or jrevdct.c.
+
+STATIC MEDIA LIBRARIES IN THIS FFMPEG BUILD
+x264, commit b35605ace3ddf7c1a5d67a2eb553f034aef41d55 (API 164).
+Copyright (c) 2003-2025 x264 project and individual contributors.
+GPL version 2 or later; used here under GPL version 3 or later.
+https://www.videolan.org/developers/x264.html
+See licenses/x264-COPYING.txt, x264-AUTHORS.txt, x264-file-notices.txt.
+
+LAME 3.100, copyright its authors (see licenses/LAME-README.txt).
+GNU Library/Lesser GPL version 2 or later. The LAME decoder and frontend are
+disabled. LAME retains its library license within the GPLv3-or-later FFmpeg
+combination. Complete library and application sources and build commands are
+supplied so recipients can modify the library and relink (Library GPL section 6).
+https://lame.sourceforge.io/
+See licenses/LAME-COPYING.txt LAME-LICENSE.txt and LAME-file-notices.txt.
+
+WINDOWS COMPILER RUNTIME
+MinGW-w64 12.0.0 (Debian revision 12.0.0-5), with its various permissive/public
+-domain components; full notices: licenses/MinGW-w64-copyright.txt.
+GCC runtime, GCC 14.2.0 cross toolchain (Debian 14.2.0-19+27+b1): GPLv3 with
+GCC Runtime Library Exception 3.1. Full text and notices are included in
+licenses/GCC-runtime-copyright.txt. Compiler tools themselves are not shipped.
+The FFmpeg binaries use ordinary Windows system DLLs, not third-party DLLs.
+
+GO RUNTIME
+The application, setup and builders use Go 1.27.4 and its standard library.
+Copyright (c) The Go Authors, under the Go BSD-style license.
+See licenses/Go-LICENSE.txt and the accompanying Go notices/patent grants.
+https://go.dev/LICENSE
+
+CORRESPONDING SOURCE
+Perplex-FFmpeg-Source-1.1.6.zip contains the exact FFmpeg, x264 and LAME input
+archives, MinGW-w64 source and Debian patches, license texts, build script,
+configuration, and toolchain identification. Its checksums and executable
+mapping are recorded in FFMPEG-MANIFEST.json. See FFMPEG-SOURCE.txt.
+No proprietary or nonfree media codec library is included.
+
+Media processing and installation work offline. Nothing is downloaded by
+the installer or uploaded by the converter. The website and license links
+open in the user's browser only when selected.
